@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1108273425216178
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4943013823152874}
+  - component: {fileID: 114226391161518052}
+  m_Layer: 0
+  m_Name: YoutubeForCustomPlayer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4943013823152874
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1108273425216178}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.009087741, y: 0.27618206, z: -3.9990587}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114226391161518052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1108273425216178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e7418089f4181645b5df8f90e317bf4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  youtubeUrl: https://youtu.be/BGKjPeQ8R3A
+  videoQuality: 0
+  autoPlayOnStart: 1
+  startFromSecond: 0
+  startFromSecondTime: 0
+  showThumbnailBeforeVideoLoad: 0
+  thumbnailObject: {fileID: 0}
+  customPlaylist: 0
+  autoPlayNextVideo: 0
+  youtubeUrls: []
+  OnYoutubeUrlAreReady:
+    m_PersistentCalls:
+      m_Calls: []
+  OnVideoReadyToStart:
+    m_PersistentCalls:
+      m_Calls: []
+  OnVideoStarted:
+    m_PersistentCalls:
+      m_Calls: []
+  OnVideoPaused:
+    m_PersistentCalls:
+      m_Calls: []
+  OnVideoFinished:
+    m_PersistentCalls:
+      m_Calls: []
+  videoFormat: 0
+  autoPlayOnEnable: 0
+  playUsingInternalDevicePlayer: 0
+  loadYoutubeUrlsOnly: 1
+  objectsToRenderTheVideoImage: []
+  is3DLayoutVideo: 0
+  layout3d: 0
+  videoControllerCanvas: {fileID: 0}
+  mainCamera: {fileID: 0}
+  loadingContent: {fileID: 0}
+  videoPlayer: {fileID: 0}
+  audioPlayer: {fileID: 0}
+  debug: 0
+  ignoreTimeout: 0
+  _skipOnDrop: 1
+  videoUrl: 
+  audioUrl: 
+  ForceGetWebServer: 0
+  showPlayerControls: 0
+  pauseCalled: 0
+  autoHideControlsTime: 3
+  mainControllerUi: {fileID: 0}
+  progress: {fileID: 0}
+  volumeSlider: {fileID: 0}
+  playbackSpeed: {fileID: 0}
+  currentTimeString: {fileID: 0}
+  totalTimeString: {fileID: 0}
+  isSyncing: 0
+  encryptedSignatureVideo: 
+  encryptedSignatureAudio: 
+  decryptedUrlForVideo: 0
+  decryptedUrlForAudio: 0
+  decryptedVideoUrlResult: 
+  decryptedAudioUrlResult: 
+  EncryptUrlForVideo: 
+  EncryptUrlForAudio: 
+  jsonForHtmlVersion: 
+  checkIfSync: 0
